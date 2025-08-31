@@ -1,0 +1,39 @@
+/* Texto */
+color: red;                     /* Cor do texto */
+font-size: 16px;               /* Tamanho da fonte */
+font-family: Arial, sans-serif;/* Tipo de fonte */
+text-align: center;            /* Alinhamento do texto */
+
+/* Espaçamento */
+margin: 20px;                  /* Espaço externo */
+padding: 10px;                 /* Espaço interno */
+
+/* Bordas e fundo */
+border: 1px solid black;       /* Borda */
+border-radius: 5px;            /* Bordas arredondadas */
+background-color: #f0f0f0;     /* Cor de fundo */
+
+/* Tamanho */
+width: 100%;                   /* Largura */
+height: auto;                  /* Altura */
+
+/* Layout */
+display: block;                /* Tipo de exibição */
+position: relative;            /* Posição */
+top: 10px;                     /* Distância do topo */
+z-index: 1;                    /* Ordem de sobreposição */
+
+/* Efeitos */
+opacity: 0.8;                  /* Transparência */
+box-shadow: 2px 2px 5px gray;  /* Sombra */
+transition: all 0.3s ease;     /* Animação suave */
+
+/* Flexbox (layout moderno) */
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* Grid (layout em grade) */
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
