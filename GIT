@@ -1,5 +1,79 @@
+Iniciais
 
-- `git init`: Inicia um repositório
-- `git add`: Adiciona arquivos
-- `git commit`: Salva alterações
-- `git push`: Envia para o repositório remoto
+# 🧑‍💻 Define seu nome de usuário
+
+git config --global user.name "Seu Nome"
+
+# 📧 Define seu e-mail (precisa ser o mesmo do GitHub ou outro serviço)
+
+git config --global user.email "seu@email.com"
+
+# 📁 Inicializar repositório
+
+git init
+
+# 🔄 Clonar repositório remoto
+
+git clone <url-do-repositorio>
+
+# 📌 Verificar status dos arquivos
+
+git status
+
+# ➕ Adicionar arquivos ao staging
+
+git add <nome-do-arquivo>
+
+git add .  # Adiciona todos os arquivos modificados
+
+# ✅ Criar commit com mensagem
+
+git commit -m "Mensagem do commit"
+
+# 🚀 Enviar alterações para o repositório remoto
+
+git push
+
+# ⬇️ Atualizar repositório local com alterações do remoto
+
+git pull
+
+# 📜 Ver histórico de commits
+
+git log
+
+# 🔍 Ver diferenças entre arquivos
+
+git diff
+
+# 🌿 Trabalhar com branches
+
+git branch           # Lista branches
+
+git branch <nome>    # Cria nova branch
+
+git checkout <nome>  # Muda para outra branch
+
+git merge <nome>     # Mescla branch com a atual
+
+git branch -d <nome> # Deleta branch local
+
+# 🧹 Stash (guardar alterações temporariamente)
+
+git stash
+
+git stash pop
+
+# 🔙 Reverter ou resetar alterações
+
+git reset <arquivo>           # Remove do staging
+
+git checkout <arquivo>        # Restaura arquivo
+
+git revert <id-do-commit>     # Reverte commit específico
+
+# 🌐 Repositórios remotos
+
+git remote -v     # Lista remotos
+
+git fetch         # Baixa dados sem mesclar
