@@ -20,13 +20,20 @@
 
 <!-- Texto e links -->
 
+<link rel="stylesheet" href="style.css"/> 
+<!--(rel="" - O atributo rel (de “relationship”) define a relação entre o documento HTML atual e o recurso externo que está sendo referenciado pela tag <link>.)-->
+
 <p>           <!-- Parágrafo -->
-<a href="#">  <!-- Link clicável -->
+
+<a href="#">  <!-- Link clicável 
+(O atributo href significa "Hypertext REFerence" — ou seja, é o caminho para um recurso externo que será utilizado pelo HTML.)-->
+
 <br>          <!-- Quebra de linha -->
+
 <hr>          <!-- Linha horizontal -->
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <!-- Imagens -->
 
 <img src="imagem.jpg" alt="Descrição"> <!-- Imagem -->
@@ -80,3 +87,46 @@
 <ins> - Texto inserido
 <sub> - Texto subscrito
 <sup> - Texto sobrescrito
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<!--Outros-->
+
+<!-- Aplica estilos CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Define o ícone da aba do navegador -->
+<link rel="icon" href="favicon.ico">
+
+<!-- Pré-carrega um recurso para melhorar desempenho -->
+<link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<!-- Indica uma versão alternativa da página (ex: outro idioma) -->
+<link rel="alternate" href="pagina-en.html" hreflang="en">
+
+<!-- Conecta a um manifesto de aplicativo web -->
+<link rel="manifest" href="manifest.json">
+
+<!-- Caminho relativo (mesma pasta do HTML) -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Caminho relativo com subpasta -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Caminho absoluto (URL externa) -->
+<link rel="stylesheet" href="https://cdn.exemplo.com/style.css">
+
+<!-- Caminho a partir da raiz do site -->
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Link clicável para outra página -->
+<a href="sobre.html">Sobre nós</a>
+
+<!-- Link para um site externo -->
+<a href="https://www.exemplo.com">Visite nosso site</a>
+
+<!-- Ícone da aba do navegador -->
+<link rel="icon" href="favicon.ico">
+
+<!-- Importar fonte do Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
