@@ -1,0 +1,83 @@
+===================================================================================================
+                                📦 Manipulação de variáveis
+===================================================================================================
+
+const nome = "Hudi";           // Declara uma constante (não pode ser reatribuída)
+
+let idade = 25;                // Declara uma variável que pode mudar
+
+var cidade = "BH";             // Declara uma variável (forma antiga, evite usar)
+
+
+===================================================================================================
+                                 🧮 Operações matemáticas
+===================================================================================================
+
+let soma = 10 + 5;             // Soma: resultado = 15
+let subtracao = 20 - 8;        // Subtração: resultado = 12
+let multiplicacao = 4 * 3;     // Multiplicação: resultado = 12
+let divisao = 16 / 4;          // Divisão: resultado = 4
+
+===================================================================================================
+                                🔁 Estruturas de repetição
+===================================================================================================
+
+for (let i = 0; i < 5; i++) {  // Loop que repete 5 vezes
+
+  console.log(i);              // Imprime os números de 0 a 4
+}
+
+while (idade < 30) {           // Enquanto idade for menor que 30
+
+  idade++;                     // Incrementa idade
+}
+
+===================================================================================================
+                               🧠 Condicionais
+===================================================================================================
+
+if (idade >= 18) {             // Se idade for maior ou igual a 18
+
+  console.log("Maior de idade");
+} else {
+
+  console.log("Menor de idade");
+
+}
+
+===================================================================================================
+                               🧰 Funções
+===================================================================================================
+
+function saudacao(nome) {      // Declara uma função com parâmetro
+
+  return `Olá, ${nome}!`;      // Retorna uma saudação personalizada
+}
+
+console.log(saudacao("Hudi")); // Chama a função e imprime: Olá, Hudi!
+
+===================================================================================================
+                               📦 Objetos e Arrays
+===================================================================================================
+
+const pessoa = {               // Objeto com propriedades
+  nome: "Hudi",
+  idade: 25,
+  cidade: "BH"
+};
+
+const frutas = ["maçã", "banana", "uva"]; // Array com elementos
+
+console.log(frutas[1]);        // Acessa o segundo item: banana
+
+===================================================================================================
+                               🌐 Fetch de JSON externo
+===================================================================================================
+
+fetch('dados.json')            // Carrega arquivo JSON
+
+  .then(res => res.json())     // Converte para objeto JS
+  
+  .then(data => {
+    console.log(data);         // Exibe os dados no console
+  });
